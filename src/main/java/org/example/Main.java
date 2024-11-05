@@ -19,6 +19,7 @@ public class Main {
       System.out.println("再度入力しますか？(y or n):  ");
       String yesOrNo = scanner.next();
       if (yesOrNo.equals("n")) {
+        scanner.close();
         break;
       } else if (yesOrNo.equals("y")) {
       } else {
